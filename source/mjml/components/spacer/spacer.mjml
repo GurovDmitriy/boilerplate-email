@@ -1,0 +1,5 @@
+<mj-section mj-class="spacer"
+              css-class="spacer">
+    <mj-column mj-class="spacer__column"
+               css-class="spacer__column"></mj-column>
+  </mj-section>

@@ -1,0 +1,40 @@
+{
+  "name": "boilerplate-email-mjml",
+  "version": "1.0.0",
+  "description": "boilerplate-email-mjml",
+  "private": true,
+  "devDependencies": {
+    "browser-sync": "^2.27.10",
+    "del": "^6.1.1",
+    "eslint": "^8.19.0",
+    "eslint-plugin-import": "^2.26.0",
+    "googleapis": "^105.0.0",
+    "gulp": "^4.0.2",
+    "gulp-changed": "^4.0.2",
+    "gulp-debug": "^4.0.0",
+    "gulp-dest-clean": "^0.5.0",
+    "gulp-eslint": "^6.0.0",
+    "gulp-flatmap": "^1.0.2",
+    "gulp-htmlmin": "^5.0.1",
+    "gulp-image": "6.2.1",
+    "gulp-load-plugins": "^2.0.6",
+    "gulp-mjml": "^4.0.2",
+    "gulp-mustache": "^5.0.0",
+    "gulp-prettier": "^4.0.0",
+    "gulp-replace": "^1.1.1",
+    "gulp-sizereport": "^1.2.1",
+    "gulp-typograf": "^4.0.3",
+    "gulp-watch": "^5.0.1",
+    "gulp-zip": "^5.1.0",
+    "mjml": "^4.13.0",
+    "nodemailer": "^6.7.7",
+    "prettier": "2.7.1"
+  },
+  "scripts": {
+    "dev": "gulp dev",
+    "image": "gulp image",
+    "typograf": "gulp typograf",
+    "sendmail": "node ./task/sendmail.js",
+    "build": "gulp build"
+  }
+}

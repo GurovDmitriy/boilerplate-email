@@ -1,0 +1,32 @@
+{
+  "title": {
+    "content": "title"
+  },
+
+  "preheader": {
+    "content": "preheader &nbsp;&zwnj;"
+  },
+
+  "views-title__img": {
+    "src": "https://via.placeholder.com/600x320?text=title+image",
+    "href": "https://www.google.com/",
+    "title": "text",
+    "alt": "text"
+  },
+
+  "button": {
+    "src": "",
+    "href": "https://www.google.com/",
+    "title": "text"
+  },
+
+  "views-footer-link-1": {
+    "href": "https://www.google.com/",
+    "title": "text"
+  },
+
+  "views-unsubscribe": {
+    "href": "{{ unsubscribe_link }}",
+    "title": "text"
+  }
+}

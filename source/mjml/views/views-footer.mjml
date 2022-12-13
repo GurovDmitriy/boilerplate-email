@@ -1,0 +1,33 @@
+<mj-section mj-class="views-footer"
+            css-class="views-footer">
+
+  <mj-column mj-class="views-footer__column container pt40 pb60"
+              css-class="views-footer__column container pt40 pb60">
+
+    <mj-text mj-class="views-footer__text small"
+            css-class="views-footer__text small">
+      <p>Plays league of&nbsp;legends stare out the window
+        <a href="{{{views-footer-link-1.href}}}"
+            title="{{{views-footer-link-1.title}}}"
+            target="_blank"
+            rel="noopener noreferrer">link</a></p>
+    </mj-text>
+
+    <mj-text mj-class="views-footer__text small"
+            css-class="views-footer__text small">
+      <p><a href="{{{views-unsubscribe.href}}}"
+            title="{{{views-unsubscribe.title}}}"
+            target="_blank">Unsubscribe</a></p>
+    </mj-text>
+
+    <mj-divider mj-class="divider views-footer__divider"
+                css-class="divider views-footer__divider"/>
+
+    <mj-text mj-class="views-footer__text views-footer__copyright small pb0"
+            css-class="views-footer__text views-footer__copyright small pb0">
+      <p>&copy;&nbsp;2022, Footer</p>
+    </mj-text>
+
+  </mj-column>
+
+</mj-section>

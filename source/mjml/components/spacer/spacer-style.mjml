@@ -1,0 +1,23 @@
+<mj-style>
+
+/* global style in&nbsp;head */
+
+/* media */
+
+@media screen and (max-width: 479px) {
+
+}
+
+@media screen and (min-width: 480px) {
+
+}
+
+/* black-theme rule media */
+
+@media (prefers-color-scheme: dark) {
+
+}
+
+/* black-theme rule attr */
+
+</mj-style>

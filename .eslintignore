@@ -1,0 +1,12 @@
+# folders #
+######################
+**/node_modules
+**/tmp*
+**/build*
+**/dev*
+
+# files #
+######################
+*.md
+*.css
+*.mjml

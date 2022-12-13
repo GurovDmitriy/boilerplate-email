@@ -1,0 +1,18 @@
+<mj-style inline="inline">
+
+
+.btn {
+  background-color: #838383;
+  border-radius: 30px;
+  color: #ffffff;
+  display: inline-block;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  text-decoration: none;
+  -webkit-text-size-adjust: none;
+  padding: 12px 47px;
+  border: 2px solid #838383"
+}
+</mj-style>

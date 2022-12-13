@@ -1,0 +1,86 @@
+<mj-attributes>
+
+  <!-- global attr mjml -->
+
+  <mj-all                                    font-family="Helvetica, Arial, sans-serif"
+                                             font-size="20px"
+                                             line-height="25px"
+                                             font-weight="400"
+                                             font-style="normal"
+                                             color="#000000" />
+
+  <mj-class name="h1"                        font-size="34px"
+                                             line-height="40px"
+                                             font-weight="700" />
+
+  <mj-class name="h2"                        font-size="28px"
+                                             line-height="35px"
+                                             font-weight="700" />
+
+  <mj-class name="h3"                        font-size="16px"
+                                             line-height="22px"
+                                             font-weight="700" />
+
+  <mj-class name="small"                     font-size="14px"
+                                             line-height="20px"
+                                             color="#838383" />
+
+  <mj-wrapper                                padding="0px"
+                                             border-radius="20px"
+                                             background-color="#ffffff" />
+
+  <mj-section                                padding="0px" />
+
+  <mj-image                                  padding="0px"
+                                             rel="noopener noreferrer" />
+
+  <mj-button                                 padding="0px"
+                                             rel="noopener noreferrer"
+                                             target="_blank" />
+
+  <mj-text                                   align="center"
+                                             padding="0px 0px"
+                                             padding-bottom="20px" />
+
+  <mj-class name="divider"                   padding="0px"
+                                             padding-bottom="20px"
+                                             border-width="1px"
+                                             border-style="solid"
+                                             border-color="#838383" />
+
+  <mj-class name="divider-spacer"            padding="10px 0px"
+                                             border-width="0px"
+                                             border-style="solid"
+                                             border-color="#ffffff" />
+
+  <mj-class name="container"                 width="87%" />
+
+  <!-- helpers -->
+
+  <!-- padding-bottom -->
+
+  <mj-class name="pb0"                       padding-bottom="0px" />
+  <mj-class name="pb10"                      padding-bottom="10px" />
+  <mj-class name="pb15"                      padding-bottom="15px" />
+  <mj-class name="pb20"                      padding-bottom="20px" />
+  <mj-class name="pb25"                      padding-bottom="25px" />
+  <mj-class name="pb30"                      padding-bottom="30px" />
+  <mj-class name="pb40"                      padding-bottom="40px" />
+  <mj-class name="pb50"                      padding-bottom="50px" />
+  <mj-class name="pb60"                      padding-bottom="60px" />
+
+  <!-- padding-top -->
+
+  <mj-class name="pt0"                       padding-top="0px" />
+  <mj-class name="pt10"                      padding-top="10px" />
+  <mj-class name="pt15"                      padding-top="15px" />
+  <mj-class name="pt20"                      padding-top="20px" />
+  <mj-class name="pt25"                      padding-top="25px" />
+  <mj-class name="pt30"                      padding-top="30px" />
+  <mj-class name="pt40"                      padding-top="40px" />
+  <mj-class name="pt50"                      padding-top="50px" />
+  <mj-class name="pt60"                      padding-top="60px" />
+
+  <!-- blocks -->
+
+</mj-attributes>

@@ -1,0 +1,42 @@
+<mjml lang="ru">
+
+  <mj-head>
+
+    <mj-title>{{{title.content}}}</mj-title>
+    <mj-preview>{{{preheader.content}}}</mj-preview>
+
+    <mj-include path="global/attributes.mjml" />
+    <mj-include path="global/style-inline.mjml" />
+    <mj-include path="global/style.mjml" />
+
+    <mj-include path="components/spacer/spacer-attributes.mjml" />
+
+    <mj-include path="components/button/button-inline.mjml" />
+    <mj-include path="components/button/button-style.mjml" />
+
+    <mj-raw>
+      <meta name="color-scheme" content="light dark">
+      <meta name="supported-color-schemes" content="light dark">
+    </mj-raw>
+
+  </mj-head>
+
+  <mj-body css-class="body"
+           background-color="#efefef">
+
+  <mj-include path="components/spacer/spacer.mjml" />
+
+  <mj-wrapper mj-class="wrapper"
+              css-class="wrapper">
+
+    <mj-include path="views/views-title.mjml" />
+
+    <mj-include path="views/views-header.mjml" />
+
+  </mj-wrapper>
+
+  <mj-include path="views/views-footer.mjml" />
+
+  </mj-body>
+
+</mjml>

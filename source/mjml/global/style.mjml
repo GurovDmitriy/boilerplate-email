@@ -1,0 +1,96 @@
+<mj-style>
+
+/* global style in head */
+
+/* black-theme support */
+
+:root {
+  color-scheme: light dark;
+  supported-color-schemes: light dark;
+}
+
+/* media */
+
+@media screen and (max-width: 479px) {
+
+}
+
+@media screen and (min-width: 480px) {
+
+}
+
+/* black-theme rule media */
+
+@media (prefers-color-scheme: dark) {
+
+  .body {
+    background-color: #3a3a3a !important;
+  }
+
+  .wrapper > table,
+  .wrapper {
+    background-color: #333333 !important;
+  }
+
+  p,
+  span {
+    color: #ffffff !important;
+  }
+
+  .small p,
+  .small span,
+  .small a {
+    color: #838383 !important;
+  }
+
+  .divider > p {
+    border-top: 1px solid #838383 !important;
+  }
+
+  .button > td > div > a {
+    color: #000000 !important;
+    background-color: #838383 !important;
+  }
+}
+
+/* black-theme rule attr */
+
+[data-ogsc] .body,
+[data-ogsb] .body {
+  background-color: #3a3a3a !important;
+}
+
+[data-ogsc] .wrapper > table,
+[data-ogsc] .wrapper,
+[data-ogsb] .wrapper > table,
+[data-ogsb] .wrapper {
+  background-color: #333333 !important;
+}
+
+[data-ogsc] p,
+[data-ogsc] span,
+[data-ogsb] p,
+[data-ogsb] span {
+  color: #ffffff !important;
+}
+
+[data-ogsc] .small p,
+[data-ogsc] .small span,
+[data-ogsc] .small a,
+[data-ogsb] .small p,
+[data-ogsb] .small span,
+[data-ogsb] .small a {
+  color: #838383 !important;
+}
+
+[data-ogsc] .divider > p,
+[data-ogsb] .divider > p {
+  border-top: 1px solid #838383 !important;
+}
+
+[data-ogsc] .button > td > div > a,
+[data-ogsb] .button > td > div > a {
+  color: #000000 !important;
+  background-color: #838383 !important;
+}
+</mj-style>
